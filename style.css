@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(#6e3a3a31, #6e3a3a31),url(image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto, sans-serif";
+    font-size: 15px;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white
+}
+
+.active {
+    border: 1px solid white;
+}
+
+body {
+    font-family: monospace;
+}
+
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button {
+    padding-top: 20px;
+
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.btn-one {
+     background-color: rgb(199, 76, 76);
+     font-family: "Roboto", sans-serif;
+
+ }
+
+ .btn-two {
+     font-family: "Roboto", sans-serif;
+ }
+
+ .btn-two:hover {
+     background-color:  rgb(199, 76, 76);
+     transition: all 300ms ease-in;
+ }
